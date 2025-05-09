@@ -1,0 +1,73 @@
+
+.form {
+   padding-left: 450px;
+   
+}
+
+.form legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.form input[type="number"],
+.form input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Стиль для радіо кнопок */
+.form input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Стиль для кнопки */
+.form button {
+    background-color: #4e75ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #365fd1;
+}
+
+
+.form fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.form fieldset label {
+    font-size: 14px;
+    color: #555;
+    margin-right: 20px;
+}
+fieldset {
+    display: flex;
+    gap: 60px;
+   
+}
