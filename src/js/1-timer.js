@@ -29,7 +29,7 @@ const options = {
     } else {
       userSelectedDate = selectedDate;
       startBtn.disabled = false;
-      dateInput.disabled = true;
+      
         startBtn.style.backgroundColor = '#4e75ff';
         startBtn.style.color = 'white';
         
